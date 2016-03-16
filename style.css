@@ -1,0 +1,51 @@
+
+body {
+  background-color: #444;
+  border: 30px;
+  border-color:lightgray;
+
+}
+a {
+  font-family:helvetica;
+  color:mediumaquamarine;
+}
+a:visited {
+  color:white;
+
+}
+h1 {
+  position:relative;
+  margin-top: 80px;
+  text-align:center;
+  font-style:italic;
+  font-size:25pt;
+  color: white;
+}
+
+nav {
+  font:helvetica;
+  font-weight:bold;
+  position:relative;
+  text-align:center;
+
+}
+main h2{
+  font-family:helvetica;
+  font-weight:bold;
+  color:white;
+}
+
+main p {
+  color:white;
+  ;
+}
+
+img {
+  float:right;
+  border-color:lightgray;
+  border-width:thin;
+  padding:3px;
+}
+footer {
+  text-align:center;
+}
