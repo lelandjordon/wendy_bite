@@ -2,7 +2,7 @@
 body {
   background-color: #444;
   padding:2em;
-  margin:30px auto;
+  margin:2em auto;
   width:666px;
   border:solid 5px;
   border-color:#777;
@@ -16,7 +16,7 @@ a {
   padding-right:10px;
 }
 
-a:visited {
+a.active {
   color:white;
   text-decoration:none;
 }
@@ -27,8 +27,8 @@ a:not(:last-of-type) {
 
 header {
   position:relative;
-  padding-top:10px;
-  padding-bottom:30px;
+  padding-top:1em;
+  padding-bottom:3em;
   border-bottom:1px solid #aaa;
 }
 /* A font chooser site:
@@ -53,14 +53,8 @@ nav {
 }
 main h2{
   font-family:arial;
-
-  color:white;
 }
 
-main p {
-  color:white;
-  line-height: 1.5;
-}
 main {
   color:white;
   line-height:1.5;
