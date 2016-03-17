@@ -4,24 +4,32 @@ body {
   padding:2em;
   margin:30px auto;
   width:666px;
-  border:solid 3px;
+  border:solid 5px;
   border-color:#777;
-
 }
+
 a {
   font-family:arial;
   font-weight:bold;
   color:mediumaquamarine;
+  padding-left:10px;
+  padding-right:10px;
 }
+
 a:visited {
-  text-decoration:none;
   color:white;
+  text-decoration:none;
 }
+
+a:not(:last-of-type) {
+  border-right:1px solid #aaa;
+}
+
 header {
   position:relative;
-  padding-top:20px;
+  padding-top:10px;
   padding-bottom:30px;
-  border-bottom:3px #777;
+  border-bottom:1px solid #aaa;
 }
 /* A font chooser site:
 http://www.creationfactor.net/web-font-chooser-and-css-code-generator/
@@ -30,6 +38,7 @@ h1 {
   text-align:center;
   font-family:georgia;
   font-style:italic;
+  padding-top:20px;
   font-size:25pt;
   font-weight:normal;
   color: white;
@@ -52,7 +61,11 @@ main p {
   color:white;
   line-height: 1.5;
 }
-
+main {
+  color:white;
+  line-height:1.5;
+  border-bottom:1px solid #aaa;
+}
 img {
   float:right;
   border:1px solid lightgray;
